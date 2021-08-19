@@ -1,0 +1,161 @@
+.banner-page-detail {
+  background: url("../img/banner-list.jpg") no-repeat 50% 0;
+  background-size: cover;
+  height: 122px;
+}
+
+.banner-page-conten {
+  font-family: "Roboto-Regular", sans-serif;
+  color: #fff;
+  text-align: center;
+}
+.banner-page-conten .banner-page-tilte {
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+}
+.banner-page-conten ul.breadcrumb-banner {
+  text-align: center;
+}
+.banner-page-conten ul.breadcrumb-banner li {
+  display: inline;
+  margin: 0 7px;
+  position: relative;
+}
+.banner-page-conten ul.breadcrumb-banner li:before {
+  content: "/";
+  font-family: "Roboto-Regular", sans-serif;
+  display: inline-block;
+  color: #fff;
+  font-size: 14px;
+  position: absolute;
+  top: 2px;
+  right: -12px;
+}
+.banner-page-conten ul.breadcrumb-banner li:last-child:before {
+  display: none;
+}
+.banner-page-conten ul.breadcrumb-banner li a {
+  font-family: "Roboto-Regular", sans-serif;
+  color: #fff;
+  text-decoration: none;
+  font-size: 14px;
+}
+.banner-page-conten ul.breadcrumb-banner li a:hover {
+  text-decoration: underline;
+}
+
+.maybe-care p {
+  color: #51ad23;
+  font-size: 24px;
+}
+.maybe-care .product-item {
+  border: solid 1px #e6e5e1;
+  margin-bottom: 30px;
+  transition: all 0.2s ease;
+}
+.maybe-care .product-item:hover {
+  box-shadow: 21px 2px 33px 11px rgba(145, 145, 145, 0.23);
+  transition: all 0.2s ease;
+}
+.maybe-care .product-item:hover .product-item-img .button-action-img-product {
+  opacity: 1;
+}
+.maybe-care .product-item .product-item-img {
+  height: 256px;
+  overflow: hidden;
+  position: relative;
+}
+.maybe-care .product-item .product-item-img .button-action-img-product {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  opacity: 0;
+}
+.maybe-care .product-item .product-item-img .button-action-img-product a {
+  display: inline-flex;
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  margin: 0 7px;
+}
+.maybe-care .product-item .product-item-img .button-action-img-product a:first-child {
+  background: #fff;
+}
+.maybe-care .product-item .product-item-img .button-action-img-product a:last-child {
+  background: #4a8a24;
+}
+.maybe-care .product-item .product-item-infomation {
+  padding: 15px;
+}
+.maybe-care .product-item .product-item-infomation .product-item-name {
+  margin-bottom: 30px;
+  height: 40px;
+}
+.maybe-care .product-item .product-item-infomation .product-item-name a {
+  font-size: 16px;
+  color: #212121;
+  font-weight: 900;
+  overflow: hidden;
+  text-decoration: none;
+  display: -webkit-box;
+  text-overflow: ellipsis;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+}
+.maybe-care .product-item .product-item-infomation .product-item-name a:hover {
+  text-decoration: underline;
+}
+.maybe-care .product-item .product-item-infomation .product-item-cost {
+  font-size: 20px;
+  color: #c71616;
+  font-family: "Roboto-Regular", sans-serif;
+  font-weight: 700;
+}
+.maybe-care .product-item .product-item-infomation .product-weight {
+  font-size: 14px;
+  color: #9c9c9c;
+}
+
+.news-page {
+  padding: 33px 0;
+  margin: 0 0 50px;
+}
+.news-page .news-item {
+  overflow: hidden;
+  border: solid 1px #e6e5e1;
+  transition: all 0.2s ease;
+}
+.news-page .news-item:hover {
+  box-shadow: 21px 2px 33px 11px rgba(145, 145, 145, 0.23);
+  transition: all 0.2s ease;
+}
+.news-page .news-item .img-news-item {
+  overflow: hidden;
+  height: 230px;
+}
+.news-page .news-item .news-title-item h6 {
+  font-size: 16px;
+  color: #212121;
+  font-weight: 900;
+  height: 40px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  margin: 0;
+}
+
+.see-all a {
+  background: #72bf44;
+  color: #fff;
+  line-height: 36px;
+  padding: 0 25px;
+  border-radius: 18px;
+  margin: 10px auto 50px;
+}
+
+/*# sourceMappingURL=news-list.css.map */
